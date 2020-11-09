@@ -1,5 +1,14 @@
 # assignment1_WAHL
 
+Projektbeschreibung
+
+Das Projekt beinhaltet 3 Funktionen, bei der ersten Funktion wird der Nenner von 2 verschiedenen 
+Werten berechnet, mit der 2. Funktion wird Zähler von 2 verschiedenen Werten berechnet. 
+Letztendlich folgt die 3. Funktion zur Berechnung des Bruches. Im letzten Schritt wird 
+der Bruch auf die kleinstmöglichen Werte gekürzt und die Berechnung ist fertig.
+Es wurde für alle 3 Funktionen ein Test geschrieben. 
+
+#Apache2.0 License
 Copyright [2020] [WAHL LAURA]
 
 Licensed under the Apache License, Version 2.0 (the "License");
