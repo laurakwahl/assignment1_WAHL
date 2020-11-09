@@ -5,7 +5,7 @@ Created on Mon Nov  9 16:51:26 2020
 @author: Laura
 """
 
-from Rechnung import smallest_common_denominator, biggest_common_denominator, add_frac
+from Rechnung import smallest_common_counter, biggest_common_denominator, add_frac
 
 def test_smallest_common_counter():
     assert smallest_common_counter(1,2) == 2
