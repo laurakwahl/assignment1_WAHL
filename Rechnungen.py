@@ -1,4 +1,4 @@
-def kgV(val1, val2):
+def smallest_common_counter(val1, val2):
     if (val1 == val2):
         return val1
     else:
@@ -11,7 +11,7 @@ def kgV(val1, val2):
                 new2 += val2
         return new1
 
-def ggT(val1, val2):
+def biggest_common_denominator(val1, val2):
     if (val1 < val2):
         small = val1
         big = val2
@@ -26,11 +26,11 @@ def ggT(val1, val2):
     return factor
 
 def add_frac(counter1, denominator1, counter2, denominator2):
-    denominator = kgV(denominator1, denominator2)
+    denominator = smallest_common_counter(denominator1, denominator2)
     counter = ((denominator / denominator1) * counter1) + ((denominator / denominator2) * counter2)
 
     # Kürzen
-    teiler = ggT(counter, denominator)
+    teiler = biggest_common_denominator(counter, denominator)
     counter /= teiler
     denominator /= teiler
 
